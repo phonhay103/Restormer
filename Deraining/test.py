@@ -23,7 +23,7 @@ from pdb import set_trace as stx
 parser = argparse.ArgumentParser(description='Image Deraining using Restormer')
 
 parser.add_argument('--input_dir', default='./Datasets/', type=str, help='Directory of validation images')
-parser.add_argument('--result_dir', default='./results/', type=str, help='Directory for results')
+parser.add_argument('--result_dir', default='./Results/', type=str, help='Directory for results')
 parser.add_argument('--weights', default='./pretrained_models/deraining.pth', type=str, help='Path to weights')
 
 args = parser.parse_args()
@@ -52,7 +52,7 @@ model_restoration = nn.DataParallel(model_restoration)
 model_restoration.eval()
 
 
-factor = 8
+factor = 1
 datasets = ['Rain100L', 'Rain100H', 'Test100', 'Test1200', 'Test2800']
 
 for dataset in datasets:

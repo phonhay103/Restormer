@@ -1,0 +1,14 @@
+einops
+# torch
+# torchvision
+natsort
+numpy
+pyyaml
+ffmpeg 
+opencv-python
+yacs
+scikit-image
+scipy
+tb-nightly
+tqdm
+lmdb
