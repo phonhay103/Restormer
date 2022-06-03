@@ -1,6 +1,6 @@
-einops
 # torch
 # torchvision
+einops
 natsort
 numpy
 pyyaml
