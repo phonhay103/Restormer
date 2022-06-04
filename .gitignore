@@ -9,6 +9,5 @@
 .DS_Store
 
 Deraining/results/*
-Deraining/basicsr/
 Deraining/datasets/*
 Deraining/pretrained/*
