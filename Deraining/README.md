@@ -16,20 +16,17 @@ cd Restormer
 
 ## Evaluation
 
-1. Download the pre-trained [model](https://drive.google.com/drive/folders/1ZEDDEVW0UgkpWi-N4Lj_JUoVChGXCu_u?usp=sharing) and place it in `./pretrained_models/`
+1. Download the pre-trained [model](https://drive.google.com/drive/folders/1ZEDDEVW0UgkpWi-N4Lj_JUoVChGXCu_u?usp=sharing) and place it in `./pretrained/`
 
-2. Download test datasets (Test100, Rain100H, Rain100L, Test1200, Test2800), run 
-```
-python download_data.py --data test
-```
+2. Download test datasets
 
 3. Testing
 ```
 python test.py
 ```
 
-#### To reproduce PSNR/SSIM scores of Table 1, run
+#### To reproduce PSNR/SSIM scores
 
 ```
-evaluate_PSNR_SSIM.m 
+evaluate_PSNR_SSIM.py (not yet)
 ```
