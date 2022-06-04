@@ -1,12 +1,10 @@
-# torch
-# torchvision
-tqdm
 opencv-python
 lmdb
 einops
 scipy
 scikit-image
 pyyaml
+tqdm
 
 # ffmpeg
 # yacs
