@@ -1,4 +1,3 @@
-.ipynb_checkpoints/
 *.pyc
 *.png
 *.tif
@@ -8,6 +7,9 @@
 *.npy
 .DS_Store
 
-Deraining/results/*
-Deraining/datasets/*
-Deraining/pretrained/*
+Deraining/results
+Deraining/datasets
+Deraining/pretrained
+Deraining/basicr
+Deraining/.ipynb_checkpoints
+Deraining/_pycache_
